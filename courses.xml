@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Courses>
+	<Course>
+		<ID>0</ID>
+		<Name>CoolCourse</Name>
+		<StartDate>01/01/1999</StartDate>
+		<EndDate>02/01/1999</EndDate>
+		<Level>Level C</Level>
+		<Credits>60</Credits>
+	</Course>
+</Courses>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Students>
+	<Student>
+		<StudentNumber>0</StudentNumber>
+		<Name>Bob</Name>
+		<Email>bbob@gmail.com</Email>
+		<DOB>01/01/1999</DOB>
+		<EnrolDate>03/03/2019</EnrolDate>
+	</Student>
+</Students>
