@@ -6,6 +6,7 @@ Please note before reading this, it was entirely written in 6 days during my sec
 * The particle stuff is really out of place but I guess I thought it looked cool?
 * Globals all over the place since I needed to get it done quickly
 * Lots of new and deleting since shared_ptr was/is too slow and resource consuming for a complex single-threaded app
+* Overall a lot of the features were messily or hackily implemented because of the strict time frame
 
 ![pic](https://i.imgur.com/8ZMPfcL.png)
 
