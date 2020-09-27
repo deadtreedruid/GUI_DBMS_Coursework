@@ -1,4 +1,11 @@
-![crab gang](https://camo.githubusercontent.com/73554d2eef465ecece1b573c38270948ba772bc1/68747470733a2f2f63646e2e69666c736369656e63652e636f6d2f696d616765732f35336134323932642d363935382d353465342d623833612d6665393533326431393332342f64656661756c742d313532313732383535342d636f7665722d696d6167652e6a7067 "crab")
+# Component-Based GUI-driven DBMS software
+Please note before reading this, it was entirely written in 6 days during my second year of uni and has numerous problems that I'll detail here:
+* Rendering, event handling and logic are handled on one thread, so the performance isn't great
+* Screen elements inexplicably don't inherit from the base GUI element class but re-implement most of that class' features
+* Lots of stuff is hardcoded and would need a significant refactor to work for other projects (which I'm currently working on!)
+* The particle stuff is really out of place but I guess I thought it looked cool?
+* Globals all over the place since I needed to get it done quickly
+* Lots of new and deleting since shared_ptr was/is too slow and resource consuming for a complex single-threaded app
 
 ![pic](https://i.imgur.com/8ZMPfcL.png)
 
